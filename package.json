@@ -1,7 +1,23 @@
 {
   "name": "bloggity-engine",
+  "author": "Brandtley McMinn",
   "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/bmcminn/bloggity-engine#readme",
+  "bugs": {
+    "url": "https://github.com/bmcminn/bloggity-engine/issues"
+  },
   "description": "The driving force behind the Bloggity CMS/Static site generator.",
+  "keywords": [
+    "static",
+    "site",
+    "generator",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmcminn/bloggity-engine.git"
+  },
   "main": "index.js",
   "dependencies": {
     "chokidar": "^1.4.3",
@@ -13,26 +29,15 @@
     "marked": "^0.3.5",
     "npm-scripts-watcher": "^1.0.2",
     "rimraf": "^2.5.2",
+    "stylus": "^0.53.0",
     "swig": "^1.4.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bmcminn/bloggity-engine.git"
-  },
-  "keywords": [
-    "static",
-    "site",
-    "generator",
-    "node"
-  ],
-  "author": "Brandtley McMinn",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bmcminn/bloggity-engine/issues"
-  },
-  "homepage": "https://github.com/bmcminn/bloggity-engine#readme"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bloggity": "node lib/index.js",
+    "bloggity:prod": "node lib/index.js --prod=true",
+    "stylus": "stylus",
+    "stylus:prod": "stylus -c"
+  }
 }

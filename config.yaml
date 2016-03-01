@@ -2,5 +2,21 @@
 theme: main
 site:
     name: My Site
-    author: Brandtley McMinn
     description: A simple site about Bloggity
+    lang: en-US
+    timezone: America/Chicago
+    robots: index, follow
+    sitemap: /sitemap.xml
+    https: false
+    domain: testing.com
+author:
+    name: Testing User
+    twitter: https://twitter.com/testinguser
+    facebook: https://facebook.com/testinguser
+    dribbble: https://dribbble.com/testinguser
+    instagram: https://instagram.com/testinguser
+    city: Austin
+    state: Texas
+    stateShort: TX
+env:
+    DEV: true

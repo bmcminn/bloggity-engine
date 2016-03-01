@@ -1,4 +1,11 @@
 ---
 title: About Bloggity!!!
 ---
-Bloggity does a pretty good job.
+{% extends "layout" %}
+
+
+{% block page-content %}
+
+    Bloggity does a pretty good job.
+
+{% endblock page-content %}
