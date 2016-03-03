@@ -1,7 +1,8 @@
 ---
 theme: main
 site:
-    name: My Site
+    title: My Site
+    name: Brandtley's Blog
     description: A simple site about Bloggity
     lang: en-US
     timezone: America/Chicago
