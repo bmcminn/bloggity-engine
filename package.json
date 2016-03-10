@@ -19,6 +19,13 @@
     "url": "git+https://github.com/bmcminn/bloggity-engine.git"
   },
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bloggity": "node lib/index.js",
+    "bloggity:prod": "node lib/index.js --prod=true",
+    "stylus": "stylus",
+    "stylus:prod": "stylus -c"
+  },
   "dependencies": {
     "chokidar": "^1.4.3",
     "fastmatter": "^1.1.1",
@@ -31,14 +38,7 @@
     "nunjucks": "^2.3.0",
     "rimraf": "^2.5.2",
     "stylus": "^0.53.0",
-    "swig": "^1.4.2"
+    "yargs": "^4.2.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "bloggity": "node lib/index.js",
-    "bloggity:prod": "node lib/index.js --prod=true",
-    "stylus": "stylus",
-    "stylus:prod": "stylus -c"
-  }
+  "devDependencies": {}
 }
