@@ -2,7 +2,7 @@
 title: My first blog post!
 author:
     name: Brandtley McMinn
-    twitter: @brandtleymcminn
+    twitter: '@brandtleymcminn'
 published: 2/29/2016
 _tags:
     - first

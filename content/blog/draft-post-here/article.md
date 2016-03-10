@@ -2,7 +2,7 @@
 title: This is a draft post!!
 author:
     name: Brandtley McMinn
-    twitter: @brandtleymcminn
+    twitter: '@brandtleymcminn'
 published: 2/26/2016
 draft: true
 _tags:
