@@ -19,5 +19,3 @@ author:
     city: Austin
     state: Texas
     stateShort: TX
-env:
-    DEV: true
