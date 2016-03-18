@@ -17,3 +17,9 @@ Task  | Type    | Description
 `swig` | _default_ | Runs a precompilation of all template files in your theme
 `stylus` | _default_ | Runs the Stylus preprocessor task
 `stylus:prod` | _prod_ | Runs the Stylus preprocessor task and minifies the output
+
+
+
+## TODO:
+
+- consider rebuilding this thing on [Feathers](https://github.com/feathersjs/feathers)
