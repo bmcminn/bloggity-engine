@@ -32,3 +32,6 @@ node_modules
 # garbage files
 __*
 *.sublime-workspace
+
+.DS_Store
+public
